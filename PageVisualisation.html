@@ -48,7 +48,7 @@
 <body>
     <div class="container float-left" id="conteneurMenuPrincipal">
         <nav class="navbar navbar-light d-inline-block float-left align-items-start" id="menuPrincipal">
-            <div class="container-fluid"><a class="navbar-brand d-flex d-sm-flex align-items-start justify-content-xl-center align-items-xl-start" id="conteneurLogo" href="Index.html"><img class="mr-auto" id="imageLogo" src="assets/img/Mode%20Nuit/Logo.png" width="45px"><p class="d-flex float-right d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center" id="texteLogo">VisuSF</p></a>
+            <div class="container-fluid"><a class="navbar-brand d-flex d-sm-flex align-items-start justify-content-xl-center align-items-xl-start" id="conteneurLogo" href="index.html"><img class="mr-auto" id="imageLogo" src="assets/img/Mode%20Nuit/Logo.png" width="45px"><p class="d-flex float-right d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center" id="texteLogo">VisuSF</p></a>
                 <ul
                     class="nav navbar-nav d-flex d-xl-flex justify-content-center nav-tabs" id="menuChapitres">
                     <li class="nav-item d-flex d-xl-flex align-items-center align-items-xl-center conteneurChapitre" role="presentation"><a class="nav-link d-xl-flex align-items-xl-center selectChapitre" href="#generalitesContenu" role="tab" data-toggle="tab">Généralités</a></li>
@@ -72,7 +72,7 @@
                 <form class="form-inline d-flex align-items-start"><img class="img-fluid" src="assets/img/Mode%20Nuit/loupe.png" width="25px"><input class="form-control" type="search" id="rechercheBtn" placeholder="Recherche ..." autocomplete="off" v-model="searchInput"></form>
                 <div class="searchChoice" v-if="visible"><a class="btn btn-primary text-left" role="tab" v-for="item in searchTab" :href="item.link" data-toggle="tab" v-on:click="init(item.link, item.num)">{{ item.name }}</a></div>
                 <ul class="nav navbar-nav float-right flex-sm-row">
-                    <li class="nav-item" role="presentation"><a class="nav-link active text-center d-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center" id="acceuilBtn" href="Index.html">Accueil</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active text-center d-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center" id="acceuilBtn" href="index.html">Accueil</a></li>
                     <li
                         class="nav-item" role="presentation"><a class="btn d-flex justify-content-center align-items-center" role="button" id="miniMenuBtn" href="assets/doc/Notice%20d'utilisation.pdf" target="blank"><i class="icon ion-help" style="color: rgba(255,255,255,0.6);"></i></a></li>
                 </ul>

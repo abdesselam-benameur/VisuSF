@@ -2,8 +2,4 @@
 
 **PROJET N° 03 - Equipe 23 - Mr. DAHAMNI, Mr. HADJI**
 
-- Lancement de la plateforme : 
-  Entrer dans la page nommée "Index.html" pour accéder à la page de démarrage du site.
-
-- Informations supplémentaires :
-  Le dossier "assets" contient les différents fichiers, images et documents utilisés dans le site.
+*Outil d’aide à la simulation visuelle de fonctionnement des opérations de manipulation des structures de fichiers et de données.*

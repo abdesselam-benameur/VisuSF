@@ -17,7 +17,7 @@ new Vue({
         {name: "Méthodes d'Index : Index Non Dense", link: "#methodesIndex-IndexNonDenseContenu", num: 2,},
         {name: "Arbres en MS : Arbre m-Aire", link: "#arbres-mAireContenu", num: 3,},
         {name: "Fichiers avec Hachage : Hachage Statique", link: "#fichiersHachage-HachageStatiqueContenu", num: 4,},
-        {name: "Fichiers avec Hachage : Hachage Dynamique", link: "#fichiersHachage-HachageStatiqueContenu", num: 4,},
+        {name: "Fichiers avec Hachage : Hachage Dynamique", link: "#fichiersHachage-HachageDynamiqueContenu", num: 4,},
         {name: "Opérations de Haut Niveau : Fusion", link: "#operHautNiv-FusionContenu", num: 5,},
         {name: "Opérations de Haut Niveau : Jointure", link: "#operHautNiv-JointureContenu", num: 5,},
       ],

@@ -1,0 +1,70 @@
+.fich_TOF_conteneur {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  margin: 0;
+  margin-top: -10px;
+}
+
+.fich_TOF_conteneurListeBloc {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 50%;
+  padding: 0;
+}
+
+.fich_TOF_conteneurBloc {
+  display: inline-block;
+  margin: 0 0.5vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.blocTOF_conteneurVide {
+  margin-top: 10px;
+  width: 5.9vw;
+  height: 4.44vw;
+  min-width: 60px;
+  min-height: 40px;
+  background-color: #121212;
+  border-radius: 7px;
+}
+
+.Grph_BlocTOF {
+  margin-top: 10px;
+  width: 5.9vw;
+  height: 4.44vw;
+  min-width: 60px;
+  min-height: 40px;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  border-radius: 7px;
+  padding: 7px;
+  box-shadow: 0px 3px 6px rgba(18, 18, 18, 0.5);
+}
+
+.Grph_BlocTOF_rectDecor1 {
+  width: 100%;
+  height: 55%;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(22, 151, 221, 0.9), rgba(22, 151, 221, 0.9));
+  border-radius: 5px;
+}
+
+.Grph_BlocTOF_rectDecor2 {
+  margin-top: 5px;
+  margin-left: 5px;
+  float: right;
+  width: 25%;
+  height: 32%;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(22, 151, 221, 0.7), rgba(22, 151, 221, 0.7));
+  border-radius: 5px;
+}
+

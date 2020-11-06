@@ -1,0 +1,808 @@
+/* *************************************** Style du Body *************************************** */
+
+body {
+  background-color: #121212;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  padding: 0px;
+}
+
+/* ********************************* Style du Side-Bar ***************************************** */
+
+#conteneurMenuPrincipal {
+  padding: 10px;
+  margin: 0px;
+  margin-right: 10PX;
+  width: auto;
+  height: 100vh;
+  max-height: none;
+}
+
+#menuPrincipal {
+  width: 180px;
+  height: 100%;
+  padding: 0px;
+  background-image: linear-gradient(rgba(58, 64, 208, 0.5), rgba(22, 151, 221, 0.5));
+  border-radius: 15px 15px 15px 15px;
+}
+
+/* *************************************** Style du Logo *************************************** */
+
+#conteneurLogo {
+  z-index: 5;
+  padding: 0px;
+  width: 140px;
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  color: rgba(255,255,255,0.87);
+  height: 45px;
+}
+
+#imageLogo {
+  margin: 0px;
+  margin-right: 0px;
+}
+
+#texteLogo {
+  margin: 0px;
+  height: 35px;
+  width: 85px;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(255,255,255);
+  line-height: 19px;
+}
+
+/* ************************************ Style des Chapitres ************************************ */
+
+#menuChapitres {
+  margin-left: -10px;
+  margin-top: -50px;
+  border: none;
+  height: calc(100vh - 25px);
+}
+
+#menuChapitres .conteneurChapitre {
+  height: 100px;
+  width: 176px;
+  margin-bottom: -40px;
+  background-image: url("../../../../assets/img/Mode%20Nuit/picSmall.png"), url("../../../../assets/img/Mode%20Nuit/pic2.png"), url("../../../../assets/img/Mode%20Nuit/pic1.png");
+  background-size: 0% auto, 0% 60px, 0% 0%;
+  background-repeat: no-repeat;
+  background-position: right, right, right;
+}
+
+#menuChapitres .conteneurChapitre:hover {
+  transition: background-size 0.25s;
+  background-size: 20px auto, 0% 60px, 0% 0%;
+}
+
+/* Style du Lien */
+
+#menuChapitres .conteneurChapitre .selectChapitre {
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  line-height: 18px;
+  width: 156px;
+  margin-left: 15px;
+}
+
+#menuChapitres .conteneurChapitre .selectChapitre:hover {
+  font-weight: 400;
+}
+
+/* *************************** Animations de Sélection des Chapitres *************************** */
+
+/* Sélection Chapitre */
+
+@keyframes bubbleIn {
+  0% {
+    background-size: 20px auto, 0% 60px, 0% 0%;
+    background-position: right, right, right;
+  }
+  33% {
+    background-size: 50px auto, 0% 60px, 50px 60px;
+    background-position: right, right, right;
+  }
+  100% {
+    background-size: 50px auto, 150px 60px, 50px 60px;
+    background-position: right, right, left;
+  }
+}
+
+/* Désélection Chapitre */
+
+@keyframes bubbleOut {
+  0% {
+    background-size: 50px auto, 150px 60px, 50px 60px;
+    background-position: right, right, left;
+  }
+  33% {
+    background-size: 50px auto, 0% 60px, 50px 60px;
+    background-position: right, right, right;
+  }
+  100% {
+    background-size: 0px auto, 0% 60px, 0% 0%;
+    background-position: right, right, right;
+  }
+}
+
+/* ********************************* Style du Top-Bar ***************************************** */
+
+#conteneurMenuSecondaire {
+  padding: 10px;
+  padding-left: 0PX;
+  margin: 0px;
+  width: auto;
+  max-width: none;
+}
+
+#menuSecondaire {
+  padding: 10px 5px;
+  width: 100%;
+  background-color: rgba(255,255,255,0.04);
+  border-radius: 15px;
+}
+
+#menuSecondaire div.searchChoice {
+  position: absolute;
+  margin-left: 30px;
+  z-index: 10;
+  top: 60px;
+  width: 30.5vw;
+  background-color: #121212;
+  border-radius: 0 0 15px 15px;
+  border: 1px solid rgba(255,255,255,0.1);
+  opacity: 0.99;
+}
+
+#menuSecondaire div.searchChoice a, #menuSecondaire div.searchChoice a:focus {
+  width: 100%;
+  padding: 15px;
+  padding-left: 35px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(255,255,255, 0.6);
+  box-shadow: none;
+  background-color: transparent;
+  border: none;
+}
+
+#menuSecondaire div.searchChoice a:hover {
+  box-shadow: none;
+  color: rgba(255,255,255, 0.87);
+}
+
+/* Style du Boutton de Recherche */
+
+#rechercheBtn {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  color: rgba(255,255,255,0.87);
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  height: 27px;
+  width: 30vw;
+  transition: none;
+  margin-left: 12px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#rechercheBtn::placeholder {
+  color: rgba(255,255,255,0.6);
+}
+
+#rechercheBtn:focus {
+  border-bottom: 1.5px solid rgba(255,255,255,0.38);
+}
+
+#rechercheBtn::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  position: relative;
+  height: 15px;
+  width: 15px;
+  margin-left: 10px;
+  background-image: url("../../../../assets/img/Mode%20Nuit/supprCroix.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+/* Style du Boutton d'Acceuil */
+
+#acceuilBtn {
+  color: rgba(255,255,255,0.6);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  width: 90px;
+  height: 35px;
+  padding: 0px;
+  background-size: 25% auto;
+  background-position-x: 0%;
+  background-position-y: 100%;
+  transition: background-size 0.5s, background-position 0.5s;
+}
+
+#acceuilBtn:hover, #acceuilBtn:focus {
+  color: rgba(255,255,255,0.87);
+  border-radius: 20px;
+  background-image: url("../../../../assets/img/Mode%20Nuit/cercle1.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/* Style du Boutton d'Astuces */
+
+#astucesBtn {
+  width: 35px;
+  height: 35px;
+  padding: 0px;
+  margin-left: 10px;
+  background-size: 25% auto;
+  background-position-x: 0%;
+  background-position-y: 100%;
+  transition: background-size 0.25s, background-position 0.25s;
+}
+
+#astucesBtn:hover, #astucesBtn:focus {
+  border-radius: 50%;
+  background-image: url("../../../../assets/img/Mode%20Nuit/cercle1.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  box-shadow: none;
+}
+
+/* Style du Boutton du Thème */
+
+#themeBtn, #themeBtn:focus {
+  width: 65px;
+  height: 35px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-image: linear-gradient(rgba(255,255,255,0.12) , rgba(255,255,255,0.12)), linear-gradient(#121212 , #121212);
+  box-shadow: none;
+}
+
+/* Style du Boutton du Mini-Menu */
+
+#miniMenuBtn {
+  border: 2px solid rgba(255, 255, 255, 0.37);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  padding: 0px;
+  margin-left: 20px;
+  background-size: 25% auto;
+  background-position-x: 0%;
+  background-position-y: 100%;
+  transition: background-size 0.25s, background-position 0.25s;
+}
+
+#miniMenuBtn:hover, #miniMenuBtn:focus {
+  border-radius: 50%;
+  background-image: url("../../../../assets/img/Mode%20Nuit/cercle1.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  box-shadow: none;
+}
+
+/* ********************************* Style du Contenu ****************************************** */
+
+#conteneurContenu {
+  padding: 20px 0;
+  margin-right: 10px;
+  width: auto;
+  height: calc(100vh - 85px);
+  max-height: none;
+  max-width: none;
+  background-color: rgba(255,255,255,0.01);
+  border-radius: 15px;
+}
+
+.chapitreContenu {
+  width: 100%;
+  padding: 0;
+}
+
+.chapitreContenu p {
+  height: 30px;
+  color: rgba(255,255,255,0.87);
+  font-size: 17px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.chapitreContenu ul:nth-child(3) {
+  border: none;
+}
+
+.chapitreContenu ul:nth-child(3) li {
+  width: 120px;
+}
+
+.chapitreContenu ul:nth-child(3) li a {
+  width: fit-content;
+  color: rgba(255,255,255,0.6);
+  background-color: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  border: none;
+  padding: 0;
+  padding-bottom: 5px;
+}
+
+.chapitreContenu ul:nth-child(3) li a:hover {
+  color: rgba(255,255,255,0.87);
+  background-color: none;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  border: none;
+  color: rgba(255,255,255,0.87);
+  border-bottom: 2px solid rgba(255,255,255,0.87);
+  background-color: transparent;
+}
+
+/* ************************************ Style des Titres du Chapitre ************************************ */
+
+.chapitreContenu .menuTitresChapitre {
+  border: none;
+  width: 180px;
+  height: auto;
+  position: relative;
+  padding-top: 50px;
+}
+
+.chapitreContenu .menuTitresChapitre .conteneurTitre {
+  width: 100%;
+}
+
+/* Style du Lien */
+
+.chapitreContenu .menuTitresChapitre .conteneurTitre .selectTitre {
+  color: rgba(255,255,255,0.6);
+  background-color: transparent;
+  border: none;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: 18px;
+  width: 100%;
+  height: 46px;
+  margin-bottom: 10px;
+  padding: 0;
+  transition: color 0.5s;
+}
+
+.chapitreContenu .menuTitresChapitre .conteneurTitre .selectTitre:hover {
+  color: rgba(255,255,255,0.38);
+}
+
+.chapitreContenu .menuTitresChapitre .conteneurTitre .selectTitre .active {
+  color: rgba(255,255,255,1);
+  font-weight: 400;
+}
+
+/* ********************** Style du Menu de Choix des Structures/Opérations ********************* */
+
+.choixStructOper {
+  position: absolute;
+  z-index: 1;
+  right: 30px;
+  top: 90px;
+  width: auto;
+  height: 45px;
+  padding: 0 10px;
+  background-color: #3A40D0;
+  background-image: linear-gradient(rgba(18, 18, 18, 0.5), rgba(18, 18, 18, 0.5));
+  border: none;
+  border-radius: 20px;
+}
+
+.choixStructOper p {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.37);
+  height: 100%;
+  width: 100%;
+}
+
+.choixStructOper li {
+  width: 90px;
+  height: 45px;
+  padding: 0;
+}
+
+.choixStructOper li a, .choixStructOper li a:focus {
+  width: auto;
+  color: rgba(255,255,255,0.6);
+  background-color: transparent;
+  border: none;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  border: none;
+  padding: 0;
+}
+
+.choixStructOper li a:hover {
+  color: rgba(255,255,255);
+  font-weight: 600;
+  border: none;
+}
+
+/* **************************** Style des Contenus de Visualisation **************************** */
+
+.retourChapitreBtn {
+  margin-left: 15px;
+  opacity: 0.6;
+  padding: 0;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-size: 25% auto;
+  background-position-x: 0%;
+  background-position-y: 100%;
+  transition: background-size 0.25s, background-position 0.25s;
+  border: none;
+  margin-right: 10px;
+}
+
+.retourChapitreBtn:focus, .retourChapitreBtn:hover, .retourChapitreBtn:active {
+  opacity: 0.87;
+  background-color: transparent;
+  border: none;
+  background-image: url("../../../../assets/img/Mode%20Nuit/cercle1.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  box-shadow: none;
+}
+
+.structTabConteneur {
+  padding: 0;
+  width: auto;
+  height: calc(100% - 45px);
+}
+
+.structTabConteneur > div {
+  padding: 0;
+  width: auto;
+  height: 100%;
+}
+
+.creerBtn {
+  position: absolute;
+  z-index: 1;
+  right: 5px;
+  bottom: 5px;
+  width: 45px;
+  height: 45px;
+  padding: 0;
+  background-color: #1697DD;
+  border: none;
+  border-radius: 25px;
+  transition: background-color 0.5s;
+}
+
+.creerBtn:hover, .creerBtn:active, .creerBtn:focus {
+  border: none;
+  box-shadow: none;
+  background-color: #3A40D0;
+}
+
+/* Barre de Temps */
+
+.nav.nav-tabs.barreTemps {
+  width: 100%;
+  height: 3.44vw;
+  background-image: url("../../../../assets/img/Mode%20Nuit/exeImg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: none;
+}
+
+.chapitreContenu ul:nth-child(3) li.barreTemps-precBtn {
+  width: 3vw;
+  height: 3.3vw;
+  margin: 0;
+}
+
+.chapitreContenu .barreTemps-precBtn button, .chapitreContenu .barreTemps-precBtn button:focus {
+  padding: 0;
+  width: 2.2vw;
+  height: 2.2vw;
+  border-radius: 50%;
+  background-color: #121212;
+  opacity: 0.6;
+  transition: opacity 0.5s;
+  padding-right: 0.22vw;
+  box-shadow: none;
+  border: none;
+}
+
+.chapitreContenu .barreTemps-precBtn button:hover {
+  opacity: 1;
+  box-shadow: none;
+  border: none;
+}
+
+.chapitreContenu ul:nth-child(3) li.barreTemps-autoBtn {
+  width: 3vw;
+  height: 3.3vw;
+  margin: 0;
+  padding-top: 2px;
+}
+
+.chapitreContenu .barreTemps-autoBtn button, .chapitreContenu .barreTemps-autoBtn button:focus {
+  padding: 0;
+  width: 2.41vw;
+  height: 2.41vw;
+  border-radius: 50%;
+  background-color: #3A40D0;
+  opacity: 0.6;
+  transition: opacity 0.5s;
+  position: absolute;
+  box-shadow: none;
+  border: none;
+}
+
+.chapitreContenu .barreTemps-autoBtn button:hover {
+  opacity: 1;
+  box-shadow: none;
+  border: none;
+}
+
+.chapitreContenu ul:nth-child(3) li.barreTemps-suivBtn {
+  width: 3vw;
+  height: 3.3vw;
+  margin: 0;
+}
+
+.chapitreContenu .barreTemps-suivBtn button, .chapitreContenu .barreTemps-suivBtn button:focus {
+  padding: 0;
+  width: 2.2vw;
+  height: 2.2vw;
+  border-radius: 50%;
+  background-color: #121212;
+  opacity: 0.6;
+  transition: opacity 0.5s;
+  padding-left: 3px;
+  box-shadow: none;
+  border: none;
+}
+
+.chapitreContenu .barreTemps-suivBtn button:hover {
+  opacity: 1;
+  box-shadow: none;
+  border: none;
+}
+
+.chapitreContenu ul:nth-child(3) li.barreTemps-barreEtapes {
+  padding: 0;
+  margin: 0px 0.7vw;
+  width: 7.32vw;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16));
+}
+
+.chapitreContenu .barreTemps-barreEtapes div {
+  padding: 0;
+  margin: 0;
+  width: 0;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #3A40D0;
+  transition: width 0.125s;
+}
+
+.chapitreContenu ul:nth-child(3) li.barreTemps-initBtn {
+  width: 1.83vw;
+  height: 3.3vw;
+  margin: 0;
+}
+
+.chapitreContenu .barreTemps-initBtn button, .chapitreContenu .barreTemps-initBtn button:focus {
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: transparent;
+  opacity: 0.6;
+  transition: background-color 0.5s, opacity 0.5s;
+  box-shadow: none;
+  border: none;
+}
+
+.chapitreContenu .barreTemps-initBtn button:hover {
+  opacity: 1;
+  background-color: #121212;
+  box-shadow: none;
+  border: none;
+}
+
+.chapitreContenu ul:nth-child(3) li.barreTemps-vitesseBtn {
+  width: 1.83vw;
+  height: 3.3vw;
+  margin: 0;
+}
+
+.chapitreContenu .barreTemps-vitesseBtn button, .chapitreContenu .barreTemps-vitesseBtn button:focus {
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: transparent;
+  opacity: 0.6;
+  transition: opacity 0.5s;
+  box-shadow: none;
+  border: none;
+}
+
+.chapitreContenu .barreTemps-vitesseBtn button:hover {
+  opacity: 1;
+  box-shadow: none;
+  border: none;
+}
+
+.chapitreContenu .barreTemps-vitesseBtn input {
+  position: absolute;
+  z-index: 1;
+  bottom: 85px;
+  -webkit-appearance: none;
+  transform: rotate(90deg);
+  width: 50px;
+  height: 7px;
+  border-radius: 25%;
+  background: #121212;
+  background-image: linear-gradient(rgba(58, 63, 208, 0.5), rgba(58, 63, 208, 0.5));
+  outline: none;
+}
+
+.chapitreContenu .barreTemps-vitesseBtn input:hover {
+  opacity: 1;
+}
+
+.chapitreContenu .barreTemps-vitesseBtn input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #3A40D0;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.chapitreContenu .barreOperations {
+  width: calc(100% - 20px - 22vw);
+  border: none;
+}
+
+.chapitreContenu .barreOperations li {
+  width: 100px;
+  height: 45px;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08));
+  border-radius: 15px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.chapitreContenu .barreOperations li input {
+  width: 50px;
+  background-color: transparent;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: none;
+  box-shadow: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.chapitreContenu .barreOperations li input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.chapitreContenu .barreOperations li input:focus {
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+
+.chapitreContenu .barreOperations li input::-webkit-outer-spin-button, .barreOperations li input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.chapitreContenu .barreOperations li button, .chapitreContenu .barreOperations li button:focus {
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #121212;
+  opacity: 0.6;
+  transition: opacity 0.5s;
+  box-shadow: none;
+  border: none;
+}
+
+.chapitreContenu .barreOperations li button:hover {
+  opacity: 1;
+  background-color: #3A40D0;
+  box-shadow: none;
+  border: none;
+}
+
+.nav-tabs .nav-link.disabled {
+  color: rgba(255, 255, 255, 0.37);
+  background-color: transparent;
+  border-color: transparent;
+}
+
+/* ****************************************** DOCUMENTATION ******************************************* */
+
+.documConteneur {
+  padding: 20px;
+  width: 100%;
+  height: calc(100% - 45px);
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255,255,255,0.04), rgba(255,255,255,0.04));
+  border: none;
+  border-radius: 15px;
+}
+
+.documConteneur h6 {
+  color: rgba(255,255,255,0.8);
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 30px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.38);
+  padding-bottom: 10px;
+}
+
+.documConteneur p {
+  color: rgba(255,255,255,0.7);
+  font-weight: 400;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  width: calc(100% - 20px);
+  height: calc(100% - 50px);
+  line-height: 30px;
+  overflow-y: scroll;
+}
+
+.documConteneur img {
+  margin: 0 15%;
+}
+

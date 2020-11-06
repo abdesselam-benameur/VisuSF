@@ -1,0 +1,112 @@
+.bloc_arbre_conteneur {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.bloc_arbre_conteneurTabVal {
+  display: block;
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 50%;
+}
+
+.bloc_arbre_conteneurTabValText {
+  display: inline-block;
+  position: relative;
+  width: 3.66vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  color: white;
+  top: 2.1vw;
+}
+
+.bloc_arbre_conteneurListeVal {
+  display: inline-block;
+  width: calc(100% - 3.66vw);
+  padding: 0;
+  position: relative;
+}
+
+.bloc_arbre_conteneurVal {
+  display: inline-block;
+  width: 3vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.bloc_arbre_conteneurTabFils {
+  display: block;
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 50%;
+}
+
+.bloc_arbre_conteneurTabFilsText {
+  display: inline-block;
+  position: relative;
+  top: 2.5vw;
+  width: 3.66vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  color: white;
+}
+
+.bloc_arbre_conteneurListeFils {
+  display: inline-block;
+  width: calc(100% - 3.66vw);
+  padding: 0;
+}
+
+.bloc_arbre_conteneurFils {
+  position: relative;
+  top: 2.5vw;
+  display: inline-block;
+  width: 3vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12));
+}
+
+.bloc_arbre_conteneurDegre {
+  position: relative;
+  top: 2.5vw;
+  float: right;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 1vw;
+  color: white;
+}
+
+p.bloc_arbre_conteneurDegre_Valeur {
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  padding: 2px 5px;
+  margin: 5px;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12));
+  border-radius: 5px;
+  text-align: right;
+  letter-spacing: 2px;
+}
+

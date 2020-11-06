@@ -1,0 +1,408 @@
+/* *************************************** Style du Body *************************************** */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body.acceuilBody {
+  background-color: #121212;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  padding: 0px;
+}
+
+#conteneurMAIN {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  color: rgba(255,255,255,0.6);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  padding: 0px;
+  background-color: #121212;
+  background-image: url('../../../../assets/img/Mode%20Nuit/Bg4MAIN.png');
+  background-repeat: no-repeat;
+  background-size: 40% 15%;
+  background-position: bottom left;
+}
+
+/* *************************************** Style du Logo *************************************** */
+
+#conteneurLogoMAIN {
+  padding: 0px;
+  width: 120px;
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  color: rgba(255,255,255,0.87);
+  height: 45px;
+}
+
+#imageLogoMAIN {
+  margin: 0px;
+  margin-right: 0px;
+}
+
+#texteLogoMAIN {
+  margin: 0px;
+  height: 35px;
+  width: 95px;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(255,255,255);
+  line-height: 19px;
+}
+
+/* Style du Boutton d'Acceuil */
+
+#acceuilBtnMAIN {
+  color: rgba(255,255,255,0.6);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  width: 90px;
+  height: 35px;
+  padding: 0px;
+  background-size: 25% auto;
+  background-position-x: 0%;
+  background-position-y: 100%;
+  transition: background-size 0.5s, background-position 0.5s;
+}
+
+#acceuilBtnMAIN:hover, #acceuilBtnMAIN:focus {
+  color: rgba(255,255,255,0.87);
+  border-radius: 20px;
+  background-image: url("../../../../assets/img/Mode%20Nuit/cercle1.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/* Style du Boutton de Visualisation */
+
+#visualisationBtnMAIN, #visualisationBtnMAIN:focus {
+  color: rgba(255,255,255,0.6);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  width: 130px;
+  height: 35px;
+  padding: 0px;
+  background-size: 25% auto;
+  background-position-x: 0%;
+  background-position-y: 100%;
+  transition: background-size 0.5s, background-position 0.5s;
+}
+
+#visualisationBtnMAIN:hover {
+  color: rgba(255,255,255,0.87);
+  border-radius: 20px;
+  background-image: url("../../../../assets/img/Mode%20Nuit/cercle1.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/* Style du Boutton de 'Produit' */
+
+#produitBtnMAIN, #produitBtnMAIN:focus {
+  color: rgba(255,255,255,0.6);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  width: 90px;
+  height: 35px;
+  padding: 0px;
+  background-size: 25% auto;
+  background-position-x: 0%;
+  background-position-y: 100%;
+  transition: background-size 0.5s, background-position 0.5s;
+}
+
+#produitBtnMAIN:hover {
+  color: rgba(255,255,255,0.87);
+  border-radius: 20px;
+  background-image: url("../../../../assets/img/Mode%20Nuit/cercle1.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/* Style du Boutton de 'EQUIPE' */
+
+#equipeBtnMAIN, #equipeBtnMAIN:focus {
+  color: rgba(255,255,255,0.6);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  width: 90px;
+  height: 35px;
+  padding: 0px;
+  background-size: 25% auto;
+  background-position-x: 0%;
+  background-position-y: 100%;
+  transition: background-size 0.5s, background-position 0.5s;
+}
+
+#equipeBtnMAIN:hover {
+  color: rgba(255,255,255,0.87);
+  border-radius: 20px;
+  background-image: url("../../../../assets/img/Mode%20Nuit/cercle1.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/* Style du Boutton d'Aide */
+
+#aideBtnMAIN, #aideBtnMAIN:focus {
+  width: 35px;
+  height: 35px;
+  padding: 0px;
+  margin-left: 10px;
+  background-size: 25% auto;
+  background-position-x: 0%;
+  background-position-y: 100%;
+  transition: background-size 0.25s, background-position 0.25s;
+  box-shadow: none;
+}
+
+#aideBtnMAIN:hover {
+  border-radius: 50%;
+  background-image: url("../../../../assets/img/Mode%20Nuit/cercle1.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  box-shadow: none;
+}
+
+#contenu1MAIN {
+  margin: 0;
+  width: 100vw;
+  height: calc(100% - 71px);
+  color: rgba(255,255,255,0.6);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  padding: 0px;
+}
+
+#contenu1MAIN div:first-child {
+  margin: 0;
+  width: 50vw;
+  height: 50%;
+  color: rgba(255,255,255,0.87);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  padding: 0px;
+  padding-left: 40px;
+}
+
+#contenu1MAIN div:first-child h1 {
+  margin: 0;
+  color: rgba(255,255,255,0.87);
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  padding: 40px 0;
+}
+
+#conteneurBgMAIN {
+  margin: 0;
+  width: 50vw;
+  height: 100%;
+  color: rgba(255,255,255,0.87);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  padding: 50px;
+}
+
+#scrollDownBtnMAIN, #scrollDownBtnMAIN:hover, #scrollDownBtnMAIN:focus {
+  position: absolute;
+  bottom: 20px;
+  background-color: transparent;
+  width: 20px;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  animation: upDown 1s infinite;
+}
+
+@keyframes upDown {
+  0% {
+    transform: translate3d(0, 10px, 0);
+  }
+  50% {
+    transform: translate3d(0, -10px, 0);
+  }
+  100% {
+    transform: translate3d(0, 10px, 0);
+  }
+}
+
+/* Style du Boutton d'Accés à la Visualisation */
+
+#accesVisuBtnMAIN, #accesVisuBtnMAIN:focus {
+  position: absolute;
+  z-index: 10;
+  width: auto;
+  padding: 7px 14px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 25px;
+  background-color: transparent;
+  box-shadow: none;
+  color: rgba(255,255,255,0.87);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  transition: background-color 1s, color 0.5s;
+}
+
+#accesVisuBtnMAIN:hover {
+  background-color: #1697DD;
+  font-weight: 500;
+  border: none;
+}
+
+/* 2eme Conteneur */
+
+#conteneur2MAIN {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  color: rgba(255,255,255,0.6);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  padding: 0px;
+  background-color: rgba(255, 255, 255, 0.04);
+  background-image: url('../../../../assets/img/Mode%20Nuit/Bg5MAIN.png'),url('../../../../assets/img/Mode%20Nuit/Bg6MAIN.png');
+  background-repeat: no-repeat;
+  background-size: 60% 15%;
+  background-position: right top, left bottom;
+}
+
+#conteneur2MAIN .row {
+  width: 80%;
+  padding: 0;
+}
+
+#conteneur2MAIN .col {
+  padding: 0;
+}
+
+#conteneur2MAIN .col p {
+  color: rgba(255, 255, 255, 0.87);
+  height: 100px;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: Montserrat, sans-serif;
+  padding: 25px;
+  padding-bottom: 10px;
+}
+
+#conteneur2MAIN .col p:last-child {
+  padding: 0 20px;
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+}
+
+#conteneur2MAIN a, #conteneur2MAIN a:focus {
+  position: absolute;
+  top: 190%;
+  right: 0;
+  margin-right: 10%;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.04);
+  box-shadow: none;
+  background-size: 25% auto;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  transition: background-color 0.5s, background-size 0.5s, background-position 0.5s;
+  border: none;
+  padding: 5px 20px 5px 20px;
+}
+
+#conteneur2MAIN a:hover {
+  background-color: #7650ED;
+  background-image: url("../../../../assets/img/Mode%20Nuit/cercle1.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  box-shadow: none;
+}
+
+#conteneur2MAIN a img {
+  margin: 0 25px;
+  animation: leftRight 1s infinite;
+}
+
+@keyframes leftRight {
+  0% {
+    transform: translate3d(-10px, 0, 0) rotate(-90deg);
+  }
+  50% {
+    transform: translate3d(10px, 0, 0) rotate(-90deg);
+  }
+  100% {
+    transform: translate3d(-10px, 0, 0) rotate(-90deg);
+  }
+}
+
+/* 3eme Conteneur */
+
+#conteneur3MAIN {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  color: rgba(255,255,255,0.6);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  padding: 0px;
+  background-color: #121212;
+}
+
+#conteneur3MAIN .col p {
+  margin: 0;
+  position: relative;
+  top: 0;
+  height: auto;
+  font-size: 15px;
+  color: rgba(255,255,255,0.7);
+}
+
+#conteneur3MAIN p {
+  margin: 0;
+  color: rgba(255,255,255,0.37);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  padding: 0px;
+  position: absolute;
+  top: 290%;
+}
+
+#scrollUpMAIN {
+  position: absolute;
+  z-index: 10;
+  top: 290%;
+  right: 20px;
+}
+

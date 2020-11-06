@@ -1,0 +1,151 @@
+.bloc_LOVC_conteneur {
+  width: 100%;
+  height: 100%;
+  min-width: 450px;
+  background-color: transparent;
+}
+
+.bloc_LOVC_conteneurTab {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+p.bloc_LOVC_conteneurTabText {
+  display: block;
+  float: left;
+  width: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2vw;
+  color: white;
+}
+
+ul.bloc_LOVC_conteneurTabCar {
+  display: block;
+  float: left;
+  top: 2vw;
+  width: 100%;
+  height: 1.7vw;
+  padding: 0;
+  position: relative;
+}
+
+.bloc_LOVC_conteneurCar {
+  display: inline-block;
+  width: 1.7vw;
+  height: 100%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 0.75vw;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.bloc_LOVC_conteneurCarVide {
+  display: block;
+  position: absolute;
+  width: 1.7vw;
+  height: 100%;
+  background-color: transparent;
+}
+
+.bloc_LOVC_conteneurSuiv {
+  display: inline;
+  position: relative;
+  top: 30px;
+  left: 85%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  color: white;
+}
+
+p.bloc_LOVC_conteneurSuiv_Valeur {
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  padding: 2px 5px;
+  margin: 5px;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12));
+  border-radius: 5px;
+  text-align: right;
+  letter-spacing: 2px;
+}
+
+.bloc_LOVC_conteneurCle {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(119, 80, 237, 0.9), rgba(119, 80, 237, 0.9));
+  border-radius: 50%;
+  padding: 0.2vw;
+  margin: 0.15vw;
+}
+
+.bloc_LOVC_conteneurBoolNonSup {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9vw;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24));
+  margin: 0.15vw;
+  padding: 0.2vw;
+  border-radius: 5px 0 0 5px;
+}
+
+.bloc_LOVC_conteneurBoolSup {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.9vw;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: #CF6679;
+  margin: 0.15vw;
+  padding: 0.2vw;
+  border-radius: 5px 0 0 5px;
+}
+
+.bloc_LOVC_conteneurRest {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 0.9vw;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12));
+  margin: 0.;
+  margin-top: 2px;
+}
+

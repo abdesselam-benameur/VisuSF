@@ -1,0 +1,81 @@
+.selected .pleine {
+  background-color: #BB86FC;
+  color: #121212;
+  font-weight: 600;
+}
+
+.valid .pleine {
+  background-color: #03DAC6;
+  color: #121212;
+  font-weight: 600;
+}
+
+.invalid .pleine {
+  background-color: #CF6679;
+  color: #121212;
+  font-weight: 600;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08));
+}
+
+tr {
+  height: 3vh;
+  padding: 0;
+}
+
+td {
+  padding: 0;
+  vertical-align: middle;
+  text-align: center;
+  border: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8vw;
+  color: white;
+}
+
+td:first-child {
+  border-right: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.pleine {
+  margin: 0;
+  height: 3vh;
+  background-color: transparent;
+}
+
+th:first-child {
+  border-right: 1px solid rgba(255, 255, 255, 0.6);
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.10), rgba(255, 255, 255, 0.10));
+  text-align: center;
+  padding: 4px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  color: white;
+  border-radius: 15px 0 0 0;
+}
+
+th:last-child {
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12));
+  text-align: center;
+  padding: 4px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  color: white;
+  border-radius: 0 15px 0 0;
+}
+

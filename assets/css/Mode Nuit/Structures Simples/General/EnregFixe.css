@@ -1,0 +1,82 @@
+.enregFixe_conteneur {
+  display: block;
+  position: absolute;
+  padding: 0.32vw;
+  padding-top: 0.41vw;
+  margin-top: 5.6px;
+  width: 4.1vw;
+  height: 2.9vw;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12));
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px rgba(18, 18, 18, 0.5);
+}
+
+.enregFixe_conteneurValeur {
+  position: relative;
+  float: left;
+  width: 2vw;
+  height: 2vw;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(119, 80, 237, 0.9), rgba(119, 80, 237, 0.9));
+  border-radius: 50%;
+  padding: 0.36vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.enregFixe_conteneurDecor {
+  position: relative;
+  float: right;
+  padding: 0;
+  margin-left: 0;
+}
+
+.enregFixe_rectDecor1 {
+  display: block;
+  margin: 0.17vw 0;
+  width: 1vw;
+  height: 0.52vw;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24));
+  border-radius: 2.4px;
+}
+
+.enregFixe_rectDecor2 {
+  display: block;
+  margin: 0.17vw 0;
+  width: 0.73vw;
+  height: 0.52vw;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24));
+  border-radius: 2.4px;
+}
+
+.enregFixe_rectDecor3 {
+  display: block;
+  margin: 0.17vw 0;
+  width: 0.87vw;
+  height: 0.52vw;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24));
+  border-radius: 2.4px;
+}
+
+.enregFixe_conteneurVide {
+  position: absolute;
+  display: block;
+  padding: 0.32vw;
+  padding-top: 0.41vw;
+  margin-top: 5.6px;
+  width: 4.1vw;
+  height: 2.9vw;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08));
+  border-radius: 8px;
+}
+

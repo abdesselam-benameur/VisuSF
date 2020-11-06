@@ -1,0 +1,93 @@
+.bloc_LnOF_conteneur {
+  width: 100%;
+  height: 100%;
+}
+
+.bloc_LnOF_conteneurTab {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 12vh;
+  margin-bottom: -20px;
+}
+
+.bloc_LnOF_conteneurTabText {
+  display: inline-block;
+  position: relative;
+  top: 2.56vw;
+  width: 3.66vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  color: white;
+}
+
+.bloc_LnOF_conteneurListeEnreg {
+  display: inline-block;
+  width: calc(100% - 3.66vw);
+  padding: 0;
+  position: relative;
+}
+
+.bloc_LnOF_conteneurEnreg {
+  display: inline-block;
+  width: 4.1vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.bloc_LnOF_conteneurNb {
+  position: relative;
+  top: 20px;
+  float: right;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 1vw;
+  color: white;
+}
+
+p.bloc_LnOF_conteneurNb_Valeur {
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  padding: 2px 5px;
+  margin: 5px;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12));
+  border-radius: 5px;
+  text-align: right;
+  letter-spacing: 2px;
+}
+
+.bloc_LnOF_conteneurSuiv {
+  position: relative;
+  top: 20px;
+  float: right;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 1vw;
+  color: white;
+  margin-right: 3vw;
+}
+
+p.bloc_LnOF_conteneurSuiv_Valeur {
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  padding: 2px 5px;
+  margin: 5px;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12));
+  border-radius: 5px;
+  text-align: right;
+  letter-spacing: 2px;
+}
+

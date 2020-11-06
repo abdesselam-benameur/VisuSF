@@ -1,0 +1,83 @@
+.fichier_LnOF_conteneur {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.fichier_LnOF_conteneurTabBloc {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.fichier_LnOF_conteneurBloc {
+  display: inline-block;
+  margin: 0 0.5vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.fichier_LnOF_conteneurBlocVide {
+  position: relative;
+  z-index: 3;
+  margin-top: 10px;
+  width: 6.22vw;
+  height: 4.24vw;
+  min-width: 60px;
+  min-height: 40px;
+  background-color: #121212;
+  border-radius: 7px;
+}
+
+.fichier_LnOF_conteneurBlocPlein {
+  position: relative;
+  z-index: 3;
+  margin-top: 10px;
+  width: 6.22vw;
+  height: 4.24vw;
+  min-width: 60px;
+  min-height: 40px;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  border-radius: 7px;
+  padding: 7px;
+  box-shadow: 0px 3px 6px rgba(18, 18, 18, 0.5);
+}
+
+.fichier_LnOF_conteneurBlocPlein_grandRect {
+  width: 100%;
+  height: 50%;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(22, 151, 221, 0.9), rgba(22, 151, 221, 0.9));
+  border-radius: 5px;
+}
+
+.fichier_LnOF_conteneurBlocPlein_petitRect1 {
+  margin-top: 5px;
+  margin-left: 5px;
+  float: right;
+  width: 25%;
+  height: 40%;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(22, 151, 221, 0.7), rgba(22, 151, 221, 0.7));
+  border-radius: 5px;
+}
+
+.fichier_LnOF_conteneurBlocPlein_petitRect2 {
+  margin-top: 5px;
+  float: right;
+  width: 25%;
+  height: 40%;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(22, 151, 221, 0.8), rgba(22, 151, 221, 0.8));
+  border-radius: 5px;
+}
+

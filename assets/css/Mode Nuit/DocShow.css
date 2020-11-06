@@ -1,0 +1,181 @@
+#carousel-t {
+  overflow: hidden;
+  background-color: transparent;
+  height: calc(100% - 45px);
+}
+
+#carousel-t-1 {
+  overflow: hidden;
+  background-color: transparent;
+  height: 100%;
+}
+
+#carousel-t-2 {
+  overflow: hidden;
+  background-color: transparent;
+  height: 100%;
+}
+
+#carousel-t-3 {
+  overflow: hidden;
+  background-color: transparent;
+  height: 100%;
+}
+
+#carousel-t-4 {
+  overflow: hidden;
+  background-color: transparent;
+  height: 100%;
+}
+
+#carousel-t-5 {
+  overflow: hidden;
+  background-color: transparent;
+  height: 100%;
+}
+
+#carousel-t-6 {
+  overflow: hidden;
+  background-color: transparent;
+  height: calc(100% - 45px);
+}
+
+#carousel-t-7 {
+  overflow: hidden;
+  background-color: transparent;
+  height: 100%;
+}
+
+#carousel-t-8 {
+  overflow: hidden;
+  background-color: transparent;
+  height: 100%;
+}
+
+#carousel-t-9 {
+  overflow: hidden;
+  background-color: transparent;
+  height: calc(100% - 45px);
+}
+
+#carousel-t-10 {
+  overflow: hidden;
+  background-color: transparent;
+  height: 100%;
+}
+
+#carousel-t-11 {
+  overflow: hidden;
+  background-color: transparent;
+  height: calc(100% - 45px);
+}
+
+#carousel-t-12 {
+  overflow: hidden;
+  background-color: transparent;
+  height: 100%;
+}
+
+#carousel-t-13 {
+  overflow: hidden;
+  background-color: transparent;
+  height: 100%;
+}
+
+#carousel-t-14 {
+  overflow: hidden;
+  background-color: transparent;
+  height: calc(100% - 45px);
+}
+
+#carousel-t-15 {
+  overflow: hidden;
+  background-color: transparent;
+  height: 100%;
+}
+
+#carousel-t-16 {
+  overflow: hidden;
+  background-color: transparent;
+  height: 100%;
+}
+
+.carousel-t .documConteneur {
+  width: 89%;
+  margin-top: 10px;
+  height: 73vh;
+}
+
+.carousel-t .testimonial-content {
+  width: 90%;
+  height: auto;
+}
+
+.carousel-t .carousel-control-next, .carousel-control-prev {
+  width: 5%;
+}
+
+.carousel-t .carousel-control-prev {
+  opacity: 1;
+}
+
+.carousel-t .carousel-control-next {
+  opacity: 1;
+}
+
+.carousel-t .carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #121212;
+  background-image: linear-gradient(rgba(255,255,255,0.15), rgba(255,255,255,0.15));
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .2;
+  transition: opacity .6s ease;
+  border-radius: 50%;
+}
+
+.carousel-t .carousel-indicators .active {
+  opacity: .5;
+}
+
+.carousel-t .carousel-indicators {
+  position: absolute;
+  z-index: 10;
+  margin-top: 10px;
+  bottom: -25px;
+}
+
+.carousel-t .icon.ion-android-arrow-dropright-circle {
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.08);
+  transition: color .3s;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-t .icon.ion-android-arrow-dropright-circle:hover {
+  color: rgba(255, 255, 255, 0.12);
+  transition: color .3s;
+}
+
+.carousel-t .icon.ion-android-arrow-dropleft-circle {
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.08);
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-t .icon.ion-android-arrow-dropleft-circle:hover {
+  color: rgba(255, 255, 255, 0.12);
+  transition: color .3s;
+}
+
